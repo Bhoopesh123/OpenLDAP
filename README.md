@@ -85,7 +85,8 @@ create group: viewers
 
 
 # 4. Grafana OpenLDAP Configuration and Integration
-
+    copy the ldap.toml file from this repo to Grafana Machine  
+    
     cd /etc/grafana
 
     Enable Grafana.ini file as below:
