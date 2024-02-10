@@ -35,20 +35,21 @@ If you are not able to login due to some login issue pls install the below hotfi
     dpkg -i phpldapadmin_1.2.6.3-0.3_all.deb
     sudo apt-get -f install
 
-Create OU: groups
-create group: admins
-    Create user: bhoopesh
-    Once a User is created, need to attach it to the “Group”.
-    click on “Group” and Select “Add new attribute” then select your users and choose “MemberUID”
+Create OU: groups 
+create group: admins 
+    Create user: bhoopesh 
+    Once a User is created, need to attach it to the “Group”. 
+    click on “Group” and Select “Add new attribute” then select your users and choose “MemberUID” 
 
-create group: editors
-    Create user: john
-    Once a User is created, need to attach it to the “Group”.
-    click on “Group” and Select “Add new attribute” then select your users and choose “MemberUID”
-create group: viewers
-    Create user: sam
-    Once a User is created, need to attach it to the “Group”.
-    click on “Group” and Select “Add new attribute” then select your users and choose “MemberUID”
+create group: editors 
+    Create user: john 
+    Once a User is created, need to attach it to the “Group”. 
+    click on “Group” and Select “Add new attribute” then select your users and choose “MemberUID” 
+    
+create group: viewers 
+    Create user: sam 
+    Once a User is created, need to attach it to the “Group”. 
+    click on “Group” and Select “Add new attribute” then select your users and choose “MemberUID” 
 
 # 3. Install Grafana on Machine.
 
