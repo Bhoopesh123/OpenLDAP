@@ -24,7 +24,7 @@ Below steps will help in installing GUI of OPEN LDAP Server on Machine.
         #  $servers->setValue('login','bind_id','cn=admin,dc=example,dc=com');
 
 Now open Browser and give 
-    http://<publicip>/phpldapadmin
+    http://publicip/phpldapadmin
 
     Login DN: cn=admin,dc=testldap,dc=com
     password: admin
